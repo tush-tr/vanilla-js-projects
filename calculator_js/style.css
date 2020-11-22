@@ -1,0 +1,162 @@
+/* _________Import something */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* ______CSS RESET_________ */
+
+/* ___________Top Heading__________ */
+
+
+#main_heading{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    margin: 10px 15px;
+    padding: 10px 10px;
+}
+
+/* ______________________Start Making Calculator_____________________ */
+/* _______Container of the calculator */
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+/* _______Container of the calculator contents */
+#main_container{
+    height: 550px;
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+/* ________Screen of the calculators */
+#screen{
+    height: 100px;
+    width: 97%;
+    background-color: aquamarine;
+    margin: 10px 0px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+
+}
+/* _________Buttons Container_______ */
+#buttons{
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    
+}
+/* _________Numbers Container_________ */
+#numbers{
+    grid-area: number;
+    display: grid;
+    grid-template-areas: 
+    'one-number two-number three-number'
+    'four-number five-number six-number'
+    'seven-number eight-number nine-number'
+    'decimal-number zero-number equal';
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid red; */
+    /* grid-row-gap: 2px; */
+    margin: 10px 10px;
+
+}
+/* ______ Style all the buttons  inside numbers container__________ */
+.btn{
+    height: 4rem;
+    width: 5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* _______Style buttons differently inside numbers container_______ */
+#one_no{
+    grid-area: one-number;
+}
+#two_no{
+    grid-area: two-number;
+}
+#three_no{
+    grid-area: three-number;
+}
+#four_no{
+    grid-area: four-number;
+}
+#five_number{
+    grid-area: five-number;
+}
+#six_no{
+    grid-area: six-number;
+}
+#seven_no{
+    grid-area: seven-number;
+}
+#eight_no{
+    grid-area: eight-number;
+}
+#nine_no{
+    grid-area: nine-number;
+}
+#zero_no{
+    grid-area: zero-number;
+}
+#decimal{
+    grid-area: decimal-number;
+}
+#equal_to{
+    grid-area: equal;
+}
+
+
+/* __________Operators Container________ */
+#operators{
+
+    grid-area: operator;
+    /* display: grid; */
+    grid-template-areas:
+    'devide multiply-operator'
+    'minus-operator plus-operator';
+    height: 100%;
+}
+.obtn{
+    height: 4rem;
+    width: 5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 35px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#devide-operator{
+    grid-area: devide;
+}
+#multiply-operator{
+    grid-area: multiply-operator;
+}
+#minus-operator{
+    grid-area: minus-operator;
+}
+#plus-operator{
+    grid-area: plus-operator;
+}
+

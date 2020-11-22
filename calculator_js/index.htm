@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="main_heading">Making a calculator using vanilla javascript </h1>
+    <div id="calculator">
+        <div id="main_container">
+            <div >
+                <input type="number" id="screen">
+            </div>
+            <div id="buttons">
+                <div id="numbers">
+                    <button class="btn" id="one_no" value="1" onclick="one_num(value)">1</button>
+                    <button class="btn" id="two_no" value="2" onclick="one_num(value)">2</button>
+                    <button class="btn" id="three_no" value="3" onclick="one_num(value)">3</button>
+                    <button class="btn" id="four_no" value="4" onclick="one_num(value)">4</button>
+                    <button class="btn" id="five_number" value="5" onclick="one_num(value)">5</button>
+                    <button class="btn" id="six_no" value="6" onclick="one_num(value)">6</button>
+                    <button class="btn" id="seven_no" value="7" onclick="one_num(value)">7</button>
+                    <button class="btn" id="eight_no" value="8" onclick="one_num(value)">8</button>
+                    <button class="btn" id="nine_no" value="9" onclick="one_num(value)">9</button>
+                    <button class="btn" id="zero_no" value="0" onclick="one_num(value)">0</button>
+                    <button class="btn" id="decimal" value="." onclick="one_num(value)">.</button>
+                    <button class="btn" id="equal_to" value="=" onclick="one_num(value)">=</button>
+                </div>
+                <div id="operators">
+                    <button class="obtn" id="devide-operator" value="/" onclick="one_num(value)">/</button>
+                    <button class="obtn" id="multiply-operator" value="x" onclick="one_num(value)">x</button>
+                    <button class="obtn" id="minus-operator" value="-" onclick="one_num(value)">-</button>
+                    <button class="obtn" id="plus-operator" value="+" onclick="one_num(value)">+</button>
+                    <button class="obtn" id="c_button" onclick="do_null()">AC</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
