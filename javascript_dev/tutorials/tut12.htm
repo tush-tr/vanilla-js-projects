@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval and Set time out</title>
+</head>
+<body>
+    <div id="container" class="container">
+        This is a container
+
+    </div>
+    <script>
+        console.log("This is tutorial of setinterval and settimeout");
+        // Set time out -- allows us to run a function once after the interval of time
+        // Cleartimeout - allows us to run the function repeatedly after interval of time
+
+        function greet(name,tt){
+            console.log("Good Morning"+name+""+tt);
+        }
+        // timeout = setTimeout(greet, 5000,"Brother","bye bye");
+        // remember we don't have to call the function
+        // setTimeout(geet(),2000) --> Wrong as it is calling the function inside
+        // console.log(timeout);
+
+        // clearTimeout(timeout);
+
+        // Set interval
+        // setInterval(greet,1000,"Tushar","Good luck");
+
+        function see(){
+            alert("Im coming");
+        }
+        inter = setInterval(see,1000);
+        clearInterval(inter);
+
+        function displaytime(){
+            time = new Date();
+            console.log(time);
+            document.getElementById('container').innerHTML = time;
+
+
+        }
+        setInterval(displaytime,1000);
+
+        
+    </script>
+    
+</body>
+</html>

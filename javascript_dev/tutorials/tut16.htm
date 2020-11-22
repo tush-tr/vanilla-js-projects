@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with json</title>
+</head>
+<body>
+    <div class="container">
+        This is a container
+    </div>
+    <script>
+        let foods = {
+            breakfast: "Aloo ka parantha",
+            lunch: "Shahi Paneer",
+            snack: "Pakode with tea",
+            dinner: "Daal rice"
+        }
+        console.log(foods);
+        let myjson = JSON.stringify(foods);
+
+        console.log(myjson);
+
+        let newmyjson = myjson.replace('lunch','healthy meal');
+        console.log(newmyjson);
+
+        newjsonob = JSON.parse(newmyjson);
+        console.log(newjsonob);
+    </script>
+    
+</body>
+</html>

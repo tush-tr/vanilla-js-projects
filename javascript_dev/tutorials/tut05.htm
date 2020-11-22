@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scope, if-else and switch statements</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+            <li>item-7</li>
+        </ul>
+    </div>
+
+    <script>
+        // ____________________Scope_______________________
+        var s = "This is string 1 ";
+        var s = "This is redecared variable";
+        console.log(s);
+        // var declares variable of global level scope
+
+
+        // _______________________let__________________________
+        let a = "I am block level variable"; // let is a block level variable
+        {
+            let b = "Inside block";
+            console.log(b);
+        }
+        // console.log(b); -- this will give error
+        console.log(a);
+
+
+        // _____________________________const__________________________________
+        const aa = "This can't be changed";
+        // aa = "Changing this " we can't change this this will give error
+        console.log(aa);
+
+        // _________________Conditional if-else _________________
+        let age = 18;
+        if(age>18){
+            console.log("You can drive the car");
+        }
+        else if(age==18){
+            console.log("Apply for the license");
+        }
+        else{
+            console.log("You can not drive");
+        }
+
+
+        // _______________________Switch statement____________
+        const qn = 56;
+        switch (qn) {
+            case 4:
+                console.log("The value of cups is 4");
+                break;
+            case 40:
+                console.log("The value of cups is 40");
+                break;
+            case 35:
+                console.log("The value of cups is 35");
+                break;
+        
+            default:
+                console.log("the value of cups is none of 35,40,4")
+                break;
+        }
+
+
+    </script>
+</body>
+</html>

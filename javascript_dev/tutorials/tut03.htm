@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro eius rem excepturi rerum qui repudiandae ea
+            error et amet reiciendis ipsam, quibusdam commodi facilis perferendis eum nihil, laboriosam quae cumque
+            ullam nesciunt fuga sunt. Dolorum eos tenetur cupiditate iusto quaerat.</p>
+    </div>
+    <div id="content"></div>
+    <script>
+        var string = "This is a string";
+        console.log(string);
+        var str = 'This is a single quote string';
+        console.log(str);
+        console.log("Thi's");
+        var intro = "Hello Mr.";
+        var name = "Tushar";
+        console.log(intro+name);
+        var format = `${name} is a programmer`;
+        console.log(format);
+        var len = name.length;
+        console.log(`Length of name is ${len}`);
+        console.log("H\\ello\n Wo\brl\td");
+        var y = new String("This is a string");
+        console.log(y);
+        document.getElementById('content').innerHTML = '<h3> THis is an additional heading</h3>'
+    </script>
+</body>
+
+</html>

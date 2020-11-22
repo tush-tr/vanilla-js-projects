@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JavaScript</title>
+</head>
+<body>
+    <div>
+        This is about loops in JavaScript
+    </div>
+    <script>
+        console.log("This is tutorial of loops in JavaScript");
+        // let i = 0;
+        // for (i = 0; i < 3; i++) {
+        //     console.log(i);
+        // }
+        let arr = [12,34,56];
+        // for (let i = 0; i < arr.length; i++) {
+        //     console.log(arr[i]);
+        // }
+
+
+        // Modern JavaScript
+        arr.forEach(function f(element){
+            console.log("number is: "+ element);
+        });
+        
+
+        // For of loop
+        for(element of arr){
+            console.log(element);
+        }
+
+
+        // Iterate the object using for in loop
+        let employee = {
+            name: "Tushar",
+            salery: 10000,
+            role: "developer"
+        }
+        for(key in employee){
+            console.log(`The  ${key} of employee is  ${employee[key]}`);
+        }
+
+        // While Loop
+        let i = 0;
+        while (i<4) {
+            console.log(`${i} is less than 4`);
+            i++;
+        }
+
+
+        // Do while Loop
+        do {
+            console.log(`${i} is less than 4...inside do while loop`);
+            i++;
+        } while (i<4);
+
+
+
+    </script>
+</body>
+</html>

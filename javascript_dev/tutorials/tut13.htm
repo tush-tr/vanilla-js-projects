@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and time</title>
+</head>
+<body>
+    <div class="container">
+        this is the first container
+    </div>
+    <div id="main" class="common">
+
+    </div>
+    <div id="clock">
+
+    </div>
+    <script>
+        console.log("This is date and time tutorial")
+        // Using Date constructor
+        let now = new Date();
+        console.log(now);
+        let nowd = new Date(1000); // works in miliseconds
+        console.log(nowd);
+
+        // Format of date construct
+        // let datecon = new Date(year, month, date, hours, minuts, seconds, miliseconds);
+        
+
+        let newdate = new Date("2019-09-23");
+        console.log("Monday  motivation: ",newdate);
+
+        let adate = new Date(2020,10,19,23,45,23,54);
+        console.log(adate);
+
+        let yr = adate.getFullYear();
+        console.log("The year is ",yr);
+
+        let mon = adate.getMonth();
+        console.log("Month is: ",mon);
+
+        let dt = adate.getDate();
+        console.log("Date is ",dt);
+
+        let hr = adate.getHours();
+        console.log("Hours-- ",hr);
+
+        let min = adate.getMinutes();
+        console.log("Minuts-- ",min);
+
+        let sec = adate.getSeconds();
+        console.log("Seconds- ",sec);
+
+        // Date.now() -- get present miliseconds
+    </script>
+</body>
+</html>

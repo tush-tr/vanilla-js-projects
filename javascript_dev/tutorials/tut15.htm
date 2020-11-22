@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object in JavaScript</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>This is math object tutorial</h1>
+    </div>
+
+
+
+
+
+    <script>
+        // Math object
+        // E: 2.718281828459045
+        // LN2: 0.6931471805599453
+        // LN10: 2.302585092994046
+        // LOG2E: 1.4426950408889634
+        // LOG10E: 0.4342944819032518
+        // PI: 3.141592653589793
+        // SQRT1_2: 0.7071067811865476
+        // SQRT2: 1.4142135623730951
+
+        // E is euler's number
+
+
+        // Printing the math object
+        let m = Math;
+        console.log(m)
+        // Printing the constants from Math object
+        console.log("The value of Math.E is ",Math.E);
+        console.log("The value of Math.LN2 is ",Math.LN2);
+        console.log("The value of Math.LN10 is ",Math.LN10);
+        console.log("The value of Math.LOG2E is ",Math.LOG2E);
+        console.log("The value of Math.LOG10E is ",Math.LOG10E);
+        console.log("The value of Math.PI is ",Math.PI);
+        console.log("The value of Math.SQRT1_2 is ",Math.SQRT1_2);
+        console.log("The value of Math.SQRT2 is ",Math.SQRT2);
+
+        // Printing the functions from the maths object
+        let a = 34.34545;
+        let b = 89;
+        console.log("The value of a and b is: ",a,b);
+        console.log("The value of a and b rounded is: ",Math.round(a),Math.round(b));
+
+        console.log("3^4 is ",Math.pow(3,4));
+
+        console.log("Square root of 81 is ",Math.sqrt(81));
+
+        // Ceil and Flor
+        console.log(Math.ceil(5,8));
+        console.log(Math.floor(5,8));
+
+        // Abs function
+        console.log("Absolute value of -5.66 is ",Math.abs(-5.66));
+
+        // Trigonometric functions
+        console.log("Value of sin(pi)/2 is ",Math.sin(Math.PI/2));
+
+        // min/max functions
+        console.log("min value of 4,5,6 is ",Math.min(4,5,6));
+        console.log("maximum number of 3,23,4 is ",Math.max(3,23,4));
+
+        // Generating a random number
+        let r = Math.random();
+        // Random number between a and b a + (b-a)*math.random()
+        let a1 =1;
+        let b1 = 100;
+        let ran = a1 + (b1-a1)*Math.random()
+        console.log(ran);
+        console.log("The random nunmber is ",r)
+        
+
+
+
+
+
+        
+
+
+
+
+    </script>
+</body>
+
+</html>

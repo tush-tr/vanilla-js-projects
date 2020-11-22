@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>Contact us</li>
+            <li>Services</li>
+            <li>More About us</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="container">
+        second container
+    </div>
+    <script>
+        // Access html elememt by its id
+        let main = document.getElementById('main');
+        console.log(main);
+        let nav = document.getElementById('nav');
+        console.log(nav);
+        // Acess the elements inside 
+        console.log(nav.innerHTML);
+
+        // Access element by class
+        let containers = document.getElementsByClassName('container');
+        console.log(containers);
+        // we can index this collection like an array
+        console.log(containers[0]);
+
+        // Access elements by querying css selectors
+        let selector = document.querySelector('.container');
+        console.log("Selector returns ", selector);
+
+        // let newsel = document.querySelector('#nav>li');
+        // console.log(newsel);
+
+        let newsel = document.querySelectorAll('#nav>li');
+        console.log(newsel);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript string functins</title>
+</head>
+<body>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+        // first occurence of a substring
+        var position = str.indexOf('is');
+        console.log(position);
+
+        // last occurence of a substring
+        position = str.lastIndexOf('is');
+        console.log(position);
+
+        // substring of a string
+        var sub = str.slice(1,5);
+        console.log(sub);
+
+        // Slicing
+        var sub = str.substring(2,5); //negative values are not allowed
+        console.log(sub);
+
+        // replacing string
+        var replace = str.replace('string','my name');
+        console.log(str);
+        console.log(replace);
+
+        //upper and lower case functions
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        // Joining two strings
+        var newstr = str.concat(' new string');
+        console.log(newstr);
+
+        // Trim function removes white spaces
+        var strspace = "      HE        y what        is?       ";
+        console.log(strspace);
+        console.log(strspace.trim());
+
+        // Extracting characters from a string
+        var char3 = str.charAt(2);
+        console.log(char3);
+        var charcode = str.charCodeAt(3);
+        console.log(charcode);
+    </script>
+</body>
+</html>

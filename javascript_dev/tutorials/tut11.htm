@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        #btn{
+            text-align: center;
+            padding: 20px;
+            color: red;
+            border: 2px solid white;
+
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Browser Events:
+    Click
+    Context 
+    mousehover/mouseout 
+    mousedown/mouseup 
+    mousemove
+    submit
+    focus
+    DOM contentloaded
+    transitionend
+     -->
+    <div id="first-container" class="container">
+        <h1>This is headling 1</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consequatur quibusdam, maxime quidem facilis
+            illum nisi ex odio obcaecati officia? In amet rem nostrum excepturi nobis fugiat culpa, voluptates
+            voluptatibus, beatae autem ea modi velit. Atque, aliquid laudantium nulla, reiciendis tempora dolor
+            molestias saepe voluptatum, earum provident ratione ducimus dolores id consequatur aliquam accusamus
+            consectetur voluptate. Dignissimos magnam incidunt iure ipsum molestias aspernatur eligendi quos eum fuga
+            reprehenderit explicabo ratione, accusamus non ipsam harum, a voluptatem veritatis nam. Cum tempore sint
+            maxime, odio aliquid ad. Porro delectus fugit provident impedit voluptas cum, eos dolores? Tempora porro
+            deleniti provident consectetur dignissimos minus ea nihil! Enim molestias numquam eveniet iure cumque aut
+            unde maiores. Ad soluta magnam at est. Voluptatum beatae iure hic laboriosam. Facere perferendis provident
+            praesentium magnam aspernatur quia magni ipsam voluptas, consectetur eius ducimus exercitationem facilis
+            itaque maiores dolorum in. Soluta consequatur voluptates vero doloribus aliquid. Exercitationem aperiam,
+            accusamus amet eos recusandae itaque neque impedit mollitia nobis corporis commodi consectetur, sit nemo
+            architecto. Voluptatum nisi a quasi quibusdam atque eos, repudiandae fugit minus earum illo, eaque quos
+            veniam sit nemo et quam maiores. Perspiciatis ab corrupti dolorem omnis odit fuga illum obcaecati rerum,
+            dicta repudiandae iure, aut qui cum quidem nihil minima! Repellat, obcaecati, beatae perferendis illum
+            quibusdam cum laborum eaque hic quasi corporis enim minus officia. Atque, eveniet quo? Nesciunt sed eum quo
+            eligendi aliquid suscipit iste earum at illum reprehenderit.</p>
+
+    </div>
+    <button id="btn" onclick="hide()">Show Height</button>
+    <script>
+        function hide(){
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if(para.style.display!='none'){
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+            
+        }
+
+        // Event listener
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover', function run(){
+            alert("Mouse inside");
+        });
+        para.addEventListener('mouseinside',function run(){
+            alert("Mouse Outside");
+        });
+    </script>
+</body>
+
+</html>
