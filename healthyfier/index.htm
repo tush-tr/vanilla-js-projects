@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthyfier</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="input">
+        <label for="gender">Select your gender</label>
+            <select name="gender" id="gender" form="inputform">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+        <form action="" method="" id="inputform">
+            
+            <label for="weight">Enter your weight</label>
+            <input type="text" name="weight" >
+            <label for="age">Enter your age</label>
+            <input type="number" name="age" id="age" value="">
+            <label for="height">Enter your height</label>
+            <input type="text" name="height">
+            <button id="calculate" onclick="store()">Calculate</button>
+        </form>
+    </div>
+    <div class="showcase"></div>
+</body>
+</html>
