@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#main-heading{
+    margin-bottom:4rem;
 }
 body h1{
     text-align: center;
@@ -18,20 +23,62 @@ body h1{
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 7rem;
+}
+#gender{
+    border: none;
+    color: #6d0000;
+    background-color: #85c7a7;
+    padding: 6px 7px;
 }
 .contents{
     margin: 10px 10px;
     padding: 10px 10px;
+    font-family: 'Andika New Basic', sans-serif;
 }
 input{
     margin: auto;
     border: none;
     background-color: lightgrey;
+    padding: 10px 10px;
+}
+#calculate{
+    padding: 10px 13px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+#lifestyle{
+    border: none;
+    color: #6d0000;
+    background-color: #85c7a7;
+    padding: 6px 7px;
+
+}
+#calculate:hover{
+    border-radius: 5px;
+    background-color: burlywood;
+    color: grey;
+
+}
+#showcase{
+    height: 200px;
+    width: 80%;
+}
+.showbmr{
+    border: 2px solid red;
+    height: 100px;
+    /* width: 60%; */
+}
+.showtdee{
+    border: 2px solid red;
+    height: 100px;
 }
 
-.showcase{
-    /* border: 2px solid red; */
-    height: 100px;
-    width: 60%;
+@media (min-width: 200px) and (max-width: 600px){
+    .contents{
+        margin: 0 2px;
+    }
 }

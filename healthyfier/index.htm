@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1>Calculate Your BMR</h1>
+    <h1 id="main-heading">Calculate Your BMR and TDEE</h1>
 
     <div id="inputform">
         <span class="contents">
@@ -20,6 +20,14 @@
                 <option value="male">Male</option>
                 <option value="female">Female</option>
             </select></span>
+        <span class="contents">
+            <label for="">Select Your Lifestyle</label>
+            <select name="lifestyle" id="lifestyle" form="inputform">
+                <option value="1">Light Activity</option>
+                <option value="2">Active or moderate</option>
+                <option value="3">Vigorously Active</option>
+            </select>
+        </span>
         <span class="contents">
             <label for="weight">Enter your weight</label>
             <input type="number" name="weight" id="weight" placeholder="in kg">
@@ -33,10 +41,12 @@
             <input type="number" name="height" id="height" placeholder="in cm"></span>
         <button id="calculate">Calculate</button>
         </div>
-
-    <div class="showcase">
-        00
+    <div id="showcase">
+    <div class="showbmr">
         
+        
+    </div>
+    <div class="showtdee"></div>
     </div>
 </body>
 
