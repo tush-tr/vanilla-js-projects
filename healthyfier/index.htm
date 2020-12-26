@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthyfier</title>
-    <script src="script.js" defer></script>
+    <script src="script.js" async></script>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="input">
-        <label for="gender">Select your gender</label>
+    <h1>Calculate Your BMR</h1>
+
+    <div id="inputform">
+        <span class="contents">
+            <label for="gender">Select your gender</label>
             <select name="gender" id="gender" form="inputform">
                 <option value="male">Male</option>
                 <option value="female">Female</option>
-              </select>
-        <form action="" method="" id="inputform">
-            
+            </select></span>
+        <span class="contents">
             <label for="weight">Enter your weight</label>
-            <input type="text" name="weight" >
+            <input type="number" name="weight" id="weight" placeholder="in kg">
+        </span>
+        <span class="contents">
             <label for="age">Enter your age</label>
             <input type="number" name="age" id="age" value="">
+        </span>
+        <span class="contents">
             <label for="height">Enter your height</label>
-            <input type="text" name="height">
-            <button id="calculate" onclick="store()">Calculate</button>
-        </form>
+            <input type="number" name="height" id="height" placeholder="in cm"></span>
+        <button id="calculate">Calculate</button>
+        </div>
+
+    <div class="showcase">
+        00
+        
     </div>
-    <div class="showcase"></div>
 </body>
+
+
 </html>
