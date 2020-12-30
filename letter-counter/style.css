@@ -1,0 +1,16 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem 0;
+    background-color: darkcyan;
+    padding: 5rem 0;
+}
+.com{
+    margin: 2px 10px;
+    padding: 7px 9px;
+    background-color: #007575;
+}
