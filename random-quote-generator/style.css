@@ -1,0 +1,48 @@
+body{
+    background-color: #965c12;
+}
+
+
+header h1{
+    text-align: center;
+    width: 100%;
+    background-color: burlywood;
+
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    margin: 90px 10px;
+    background-color: burlywood;
+    height: 300px;
+    border-radius: 100%;
+}
+#quotename{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: inline;
+    width: 98%;
+    background-color: #c1791d;
+
+}
+@media (min-width: 200px) and (max-width: 600px){
+    .quote{
+        margin: 20px 0;
+        border-radius: 60%;
+    }
+    #quotename{
+        padding: 10px 70px;
+    }
+    #author{
+        padding: 10px 95px;
+    }
+
+}
