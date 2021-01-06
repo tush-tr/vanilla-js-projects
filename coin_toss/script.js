@@ -4,7 +4,7 @@ function toss() {
     img.setAttribute("src",`${randomNumber}.jpg`);
 };
 function anim() {
-    setTimeout(toss,1000);
+    setTimeout(toss,5000);
     let img = document.getElementById("img");
     img.setAttribute("src","toss.gif");
 
