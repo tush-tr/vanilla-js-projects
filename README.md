@@ -26,4 +26,12 @@
 
 
 ## <a href="random-quote-generator">Random Quote Generator</a>
+<<<<<<< HEAD
+<a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/"><img src="random-quote-generator/preview.gif" height="200" width="45%"></a>
+
+
+## <a href="dice-game">The Dice Game</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="dice-game/preview.gif>
+=======
 <a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/"><img src="random-quote-generator/preview.gif" height="400" width="90%"></a>
+>>>>>>> 812197181918eb9d8aedb5c9fa86296859044c70
