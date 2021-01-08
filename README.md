@@ -55,6 +55,8 @@ I made a lot of projects to enhance my javascript skills.
 
 
 
+<h1 align="center">Preview of projects</h1>
+
 ## <a href="analog_clock">Analog Clock</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/analog_clock/"><img src="analog_clock/preview.gif" height="400" width="90%"></a>
 
