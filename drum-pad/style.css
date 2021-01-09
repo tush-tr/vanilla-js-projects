@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-image: url(images/background.jpg);
+
+}
+#mainheading{
+    text-align: center;
+    font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+.set{
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.drum{
+    width: 9rem;
+    height: 8rem;
+    margin: 10px 10px;
+    background-color: #230404;
+}
+.drum:hover{
+    background-color: #7d0505;
+}
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    margin-top: 14%;
+    background-color: #7d0505;
+    color: white;
+    text-shadow: 2px 0 0 black;
+}
+@media (min-width: 200px) and (max-width: 600px){
+    .drum{
+        width: 7rem;
+    }
+    .set{
+      flex-direction: column;
+    }
+    footer{
+        margin-top: 65px;
+    }
+  }
+  
