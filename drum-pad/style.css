@@ -38,6 +38,7 @@ footer{
 @media (min-width: 200px) and (max-width: 600px){
     .drum{
         width: 7rem;
+        height: 6rem;
     }
     .set{
       flex-direction: column;
