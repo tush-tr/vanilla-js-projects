@@ -4,7 +4,7 @@
 This repo contains all basic and frontend projects I made using vanilla javascript, html and CSS, while learning javascript.
 I made a lot of projects to enhance my javascript skills.
 ## Projects
-<ul>
+<ol>
 <li>
 <a href="customer-reviews">Store customer reviews - storing entered data on the screen</a><br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/">- Check live</a>
@@ -53,7 +53,12 @@ I made a lot of projects to enhance my javascript skills.
 <a href="drum-pad">Drum Pad</a><br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/drum-pad">- Check live</a>
 </li>
-</ul>
+<li>
+<a href="note-your-words">Note your words</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/note-your-words">- Check live</a>
+</li>
+</ol>
 
 
 
@@ -73,7 +78,7 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/typing-speed-tester/"><img src="typing-speed-tester/preview.gif"></a>
 
 ## <a href="calculator_js">Calculator</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/calculatr_js/"><img src="calculator_js/image.png" ></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/calculator_js/"><img src="calculator_js/image.png" ></a>
 
 ## <a href="letter-counter">Letter Counter</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/letter-counter/"><img src="letter-counter/preview.gif" ></a>
@@ -92,10 +97,17 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="dice-game">The Dice Game</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="dice-game/preview.gif" ></a>
 
-## <a href="dice-game">The Dice Game</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="drum-pad/preview.gif"></a>
+## <a href="drum-pad">The Drum pad</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/drum-pad/"><img src="drum-pad/preview.gif"></a>
+
+## <a href="drum-pad">Note your words</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/note-your-words/"><img src="note-your-words/preview.gif"></a>
+
 
 <hr>
+
+
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 <div align=center>
 <a href="http://tush-tr.github.io">@tush-tr.github.io</a>
