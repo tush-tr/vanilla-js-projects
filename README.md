@@ -48,8 +48,8 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/love-calculator">- Check live</a>
 </li>
 <li>
-<a href="drum-kit">Drum Kit</a><br>
-<a href="https://tush-tr.github.io/vanilla-js-projects/drum-kit">- Check live</a>
+<a href="drum-pad">Drum Pad</a><br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/drum-pad">- Check live</a>
 </li>
 </ul>
 
@@ -58,36 +58,39 @@ I made a lot of projects to enhance my javascript skills.
 <h1 align="center">Preview of projects</h1>
 
 ## <a href="analog_clock">Analog Clock</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/analog_clock/"><img src="analog_clock/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/analog_clock/"><img src="analog_clock/preview.gif"></a>
 
 ## <a href="healthifier">Healthifier</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/healthifier/"><img src="healthifier/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/healthifier/"><img src="healthifier/preview.gif"></a>
 
 ## <a href="coin_toss">Toss the coin</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/coin_toss/"><img src="coin_toss/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/coin_toss/"><img src="coin_toss/preview.gif"></a>
 
 
 ## <a href="typing-speed-tester">Typing Speed Tester</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/typing-speed-tester/"><img src="typing-speed-tester/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/typing-speed-tester/"><img src="typing-speed-tester/preview.gif"></a>
 
 ## <a href="calculator_js">Calculator</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/calculatr_js/"><img src="calculator_js/image.png" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/calculatr_js/"><img src="calculator_js/image.png" ></a>
 
 ## <a href="letter-counter">Letter Counter</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/letter-counter/"><img src="letter-counter/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/letter-counter/"><img src="letter-counter/preview.gif" ></a>
 
 ## <a href="customer-reviews">Customer Reviews Store</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/"><img src="customer-reviews/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/"><img src="customer-reviews/preview.gif" ></a>
 
 ## <a href="dice-simulator">Dice Simulator</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/dice-simulator/"><img src="dice-simulator/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/dice-simulator/"><img src="dice-simulator/preview.gif" ></a>
 
 
 ## <a href="random-quote-generator">Random Quote Generator</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/"><img src="random-quote-generator/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/"><img src="random-quote-generator/preview.gif" ></a>
 
 
 ## <a href="dice-game">The Dice Game</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="dice-game/preview.gif" height="400" width="90%"></a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="dice-game/preview.gif" ></a>
 
+## <a href="dice-game">The Dice Game</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="drum-pad/preview.gif"></a>
 
+<hr>
