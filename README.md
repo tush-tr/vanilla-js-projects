@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/github/issues/tush-tr/vanilla-js-projects"> <img src="https://img.shields.io/github/forks/tush-tr/vanilla-js-projects"> <img src="https://img.shields.io/github/license/tush-tr/vanilla-js-projects"> <img src="https://img.shields.io/github/stars/tush-tr/vanilla-js-projects"> <a href="https://twitter.com/tush_tr604" target="blank"><img src="https://img.shields.io/twitter/follow/tush_tr604?logo=twitter&style=flat" alt="tush_tr604" /></a> <img src="https://img.shields.io/github/languages/count/tush-tr/vanilla-js-projects">
+
 # Projects Made using Vanilla JavaScript
 This repo contains all basic and frontend projects I made using vanilla javascript, html and CSS, while learning javascript.
 I made a lot of projects to enhance my javascript skills.
@@ -94,3 +96,10 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/dice-game/"><img src="drum-pad/preview.gif"></a>
 
 <hr>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<div align=center>
+<a href="http://tush-tr.github.io">@tush-tr.github.io</a>
+<a href="http://github.com/tush-tr" class="nav-link"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/tushar-r-849510116/" class="nav-link"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/tush_tr604" class="nav-link"><i class="fab fa-twitter"></i></a>
+</div>
