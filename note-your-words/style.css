@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    font-size: 4rem;
+}
+.print{
+    margin: 10px 10px;
+}
+input{
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
