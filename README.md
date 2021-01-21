@@ -58,6 +58,11 @@ I made a lot of projects to enhance my javascript skills.
 <br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/note-your-words">- Check live</a>
 </li>
+<li>
+<a href="table-maker">Table generator</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/table-maker">- Check live</a>
+</li>
 </ol>
 
 
@@ -102,6 +107,9 @@ I made a lot of projects to enhance my javascript skills.
 
 ## <a href="drum-pad">Note your words</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/note-your-words/"><img src="note-your-words/preview.gif"></a>
+
+## <a href="table-maker">Table Generator</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/table-maker/"><img src="table-maker/preview.gif"></a>
 
 
 <hr>
