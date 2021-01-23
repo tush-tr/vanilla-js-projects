@@ -63,6 +63,12 @@ I made a lot of projects to enhance my javascript skills.
 <br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/table-maker">- Check live</a>
 </li>
+</li>
+<li>
+<a href="ascii-finder">ASCII Value Finder</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/ascii-finder">- Check live</a>
+</li>
 </ol>
 
 
@@ -111,7 +117,8 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="table-maker">Table Generator</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/table-maker/"><img src="table-maker/preview.gif"></a>
 
-
+## <a href="ascii-finder">ASCII Value Finder</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/ascii-finder/"><img src="ascii-finder/preview.gif"></a>
 <hr>
 
 
