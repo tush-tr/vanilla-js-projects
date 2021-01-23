@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: #bbab96;
+    
+}
+h1{
+    margin: 40px 0;
+    
+}
+.input{
+    display: flex;
+    margin: 5rem 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+input{
+    font-size: 2rem;
+}
+.btn{
+    
+    font-size: 2rem;
+    cursor: pointer;
+}
+.com{
+    border: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+    border-radius: 5px;
+}
+.show{
+    
+    padding: 20px 20px;
+    font-size: 5rem;
+}
+@media (min-width:200px) and (max-width:600px){
+    .input{
+        flex-direction: column;
+    }
+}
