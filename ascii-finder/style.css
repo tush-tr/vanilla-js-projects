@@ -13,7 +13,6 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    
 }
 input{
     font-size: 2rem;
@@ -38,5 +37,8 @@ input{
 @media (min-width:200px) and (max-width:600px){
     .input{
         flex-direction: column;
+    }
+    input{
+        width: 80%;
     }
 }
