@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Show me jokes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+    <h1>
+        Show me Jokes
+    </h1>
+    <div class="form">
+        <div>
+        <label for="category">Select your category: </label>
+        <select name="category" id="category">
+            <option value="Programming">Programming</option>
+            <option value="Misc">Misc</option>
+            <option value="Dark">Dark</option>
+            <option value="Pun">Pun</option>
+            <option value="Spooky">Spooky</option>
+            <option value="Christmas">Christmas</option>
+        </select>
+        </div>
+        <div>
+        <label for="type">Select your joke type: </label>
+        <select name="type" id="joketype">
+            <option value="single">Single</option>
+            <option value="twopart">Two Part</option>
+        </select>
+        </div>
+        <div>
+        <label for="search">Search your Joke: </label>
+        <input type="text" placeholder="Optional" id="searchjoke"></div>
+        <button type="submit" id="showjoke">Show Joke</button>
+    </div>
+    <div class="show">Your Joke here</div>
+    <footer>By - <a href="">Tushar Rajput</a></footer>
+</body>
+</html>
