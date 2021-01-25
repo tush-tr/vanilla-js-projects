@@ -69,6 +69,11 @@ I made a lot of projects to enhance my javascript skills.
 <br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/ascii-finder">- Check live</a>
 </li>
+<li>
+<a href="show-me-joke">ASCII Value Finder</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/show-me-joke">- Check live</a>
+</li>
 </ol>
 
 
@@ -111,7 +116,7 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="drum-pad">The Drum pad</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/drum-pad/"><img src="drum-pad/preview.gif"></a>
 
-## <a href="drum-pad">Note your words</a>
+## <a href="note-your-words">Note your words</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/note-your-words/"><img src="note-your-words/preview.gif"></a>
 
 ## <a href="table-maker">Table Generator</a>
@@ -119,6 +124,9 @@ I made a lot of projects to enhance my javascript skills.
 
 ## <a href="ascii-finder">ASCII Value Finder</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/ascii-finder/"><img src="ascii-finder/preview.gif"></a>
+
+## <a href="show-me-joke">Show me Joke</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/show-me-joke/"><img src="show-me-joke/preview.gif"></a>
 <hr>
 
 
