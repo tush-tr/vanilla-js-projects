@@ -70,9 +70,9 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/ascii-finder">- Check live</a>
 </li>
 <li>
-<a href="show-me-joke">ASCII Value Finder</a>
+<a href="show-me-jokes">Show me joke</a>
 <br>
-<a href="https://tush-tr.github.io/vanilla-js-projects/show-me-joke">- Check live</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/show-me-jokes">- Check live</a>
 </li>
 </ol>
 
@@ -125,8 +125,8 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="ascii-finder">ASCII Value Finder</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/ascii-finder/"><img src="ascii-finder/preview.gif"></a>
 
-## <a href="show-me-joke">Show me Joke</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/show-me-joke/"><img src="show-me-joke/preview.gif"></a>
+## <a href="show-me-jokes">Show me Joke</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/show-me-jokes/"><img src="show-me-jokes/preview.gif"></a>
 <hr>
 
 
