@@ -74,6 +74,11 @@ I made a lot of projects to enhance my javascript skills.
 <br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/show-me-jokes">- Check live</a>
 </li>
+<li>
+<a href="dog-images">Search Dog Images</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/dog-images">- Check live</a>
+</li>
 </ol>
 
 
@@ -127,6 +132,12 @@ I made a lot of projects to enhance my javascript skills.
 
 ## <a href="show-me-jokes">Show me Joke</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/show-me-jokes/"><img src="show-me-jokes/preview.gif"></a>
+
+## <a href="dog-images">Search Dog Images</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/dog-images/"><img src="dog-images/preview.gif"></a>
+
+
+
 <hr>
 
 
