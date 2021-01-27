@@ -1,0 +1,62 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef1c1c;
+    padding: 10px;
+    color: white;
+}
+.search label{
+    margin: 10px;
+}
+.search select{
+    margin: 10px;
+    border: none;
+    background-color: #dc6565;
+    color: #bdbcff;
+    font-weight: bold;
+}
+button{
+    background-color: #b10e0e;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+nav{
+    background-color: #bf0909;
+    color: white;
+    padding: 1px;
+}
+body{
+    text-align: center;
+}
+.show{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+
+}
+.show img{
+    margin: 10px 10px;
+    width: 30%;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+@media (min-width: 200px) and (max-width: 600px){
+    .card{
+        flex-direction: column;
+
+    }
+    .show img{
+        width: 90%;
+    }
+}
