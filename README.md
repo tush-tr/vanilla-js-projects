@@ -6,6 +6,11 @@ I made a lot of projects to enhance my javascript skills.
 ## Projects
 <ol>
 <li>
+<a href="snake-water-gun">Snake Water Gun Game</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/">- Check live</a>
+</li>
+<li>
 <a href="customer-reviews">Store customer reviews - storing entered data on the screen</a><br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/customer-reviews/">- Check live</a>
 </li>
@@ -79,11 +84,23 @@ I made a lot of projects to enhance my javascript skills.
 <br>
 <a href="https://tush-tr.github.io/vanilla-js-projects/dog-images">- Check live</a>
 </li>
+<li>
+<a href="weather-app">Weather App</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/weather-app">- Check live</a>
+</li>
+
 </ol>
 
 
 
 <h1 align="center">Preview of projects</h1>
+
+## <a href="snake-water-gun">Snake Water Gun Game</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/preview.gif"></a>
+<div align="center">
+<a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/phone.gif"></a></div>
+
 
 ## <a href="analog_clock">Analog Clock</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/analog_clock/"><img src="analog_clock/preview.gif"></a>
@@ -136,6 +153,8 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="dog-images">Search Dog Images</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/dog-images/"><img src="dog-images/preview.gif"></a>
 
+## <a href="weather-app">Weather App</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/weather-app/"><img src="weather-app/preview.gif"></a>
 
 
 <hr>
