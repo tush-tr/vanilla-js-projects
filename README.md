@@ -98,7 +98,7 @@ I made a lot of projects to enhance my javascript skills.
 
 ## <a href="snake-water-gun">Snake Water Gun Game</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/preview.gif"></a>
-<div align="center">
+<div float="right">
 <a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/phone.gif"></a></div>
 
 
