@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-image:-webkit-linear-gradient(120deg,#77c2f7ba 40%,#1973f5ba 70%)
+}
+h1{
+    background-color: brown;
+    color: white;
+    
+}
+.input-username{
+    margin: 100px;
+    margin-bottom: 80px;
+}
+.show-about{
+    display: flex;
+    width: 460px;
+    margin: auto;
+    border: 2px solid #5c9df8;
+}
+.usercard{
+    margin: 10px;
+    text-align: left;
+    
+}
+img{
+    height: 170px;
+}

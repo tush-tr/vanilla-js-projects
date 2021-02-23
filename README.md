@@ -90,6 +90,12 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/weather-app">- Check live</a>
 </li>
 
+<li>
+<a href="github-profile-app">Github Profile app</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/github-profile-app">- Check live</a>
+</li>
+
 </ol>
 
 
@@ -97,9 +103,8 @@ I made a lot of projects to enhance my javascript skills.
 <h1 align="center">Preview of projects</h1>
 
 ## <a href="snake-water-gun">Snake Water Gun Game</a>
-<a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/preview.gif"></a>
-<div float="right">
-<a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/phone.gif"></a></div>
+<a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img src="snake-water-gun/assets/preview.gif" width="70%" height="300em" /></a><a href="https://tush-tr.github.io/vanilla-js-projects/snake-water-gun/"><img width="30%" src="snake-water-gun/assets/phone.gif" height="300em"/></a>
+
 
 
 ## <a href="analog_clock">Analog Clock</a>
@@ -156,7 +161,8 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="weather-app">Weather App</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/weather-app/"><img src="weather-app/preview.gif"></a>
 
-
+## <a href="github-profile-app">Github Profile App</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/github-profile-app/"><img src="github-profile-app/preview.png"></a>
 <hr>
 
 
