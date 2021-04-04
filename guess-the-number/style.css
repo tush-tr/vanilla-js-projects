@@ -35,3 +35,24 @@ footer{
     text-align: center;
     padding: 10px;
 }
+@media (min-width: 200px) and (max-width: 600px){
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .in{
+        width: 100%;
+    }
+    input{
+        width: 80%;
+    }
+    button{
+        padding: 10px;
+        font-size: 15px;
+    }
+    footer{
+        margin-top: 320px;
+    }
+
+}
