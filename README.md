@@ -96,6 +96,13 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/github-profile-app">- Check live</a>
 </li>
 
+<li>
+<a href="guess-the-number">Guess the number</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/guess-the-number">- Check live</a>
+</li>
+
+
 </ol>
 
 
@@ -163,6 +170,11 @@ I made a lot of projects to enhance my javascript skills.
 
 ## <a href="github-profile-app">Github Profile App</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/github-profile-app/"><img src="github-profile-app/preview.png"></a>
+
+## <a href="guess-the-number">Guess the number</a>
+<a href="https://tush-tr.github.io/vanilla-js-projects/guess-the-number/"><img src="guess-the-number/preview.gif"></a>
+
+
 <hr>
 
 
