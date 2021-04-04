@@ -1,0 +1,37 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+}
+h1{
+    font-size: 100px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 500px;
+    height: 40px;
+}
+button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.show{
+    font-size: 40px;
+}
+footer{
+    margin-top: 222px;
+    background-color: #d9d1e6cf;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
