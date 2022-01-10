@@ -102,7 +102,11 @@ I made a lot of projects to enhance my javascript skills.
 <a href="https://tush-tr.github.io/vanilla-js-projects/guess-the-number">- Check live</a>
 </li>
 
-
+<li>
+<a href="share-secrets">Secret message sharing app</a>
+<br>
+<a href="https://tush-tr.github.io/vanilla-js-projects/share-secrets">- Check live</a>
+</li>
 </ol>
 
 

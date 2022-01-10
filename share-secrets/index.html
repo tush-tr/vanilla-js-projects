@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Secret</title>
+    <style>
+        .row{
+            margin-top: 25vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        
+        <div class="col s8 offset-s2">
+            <div id="message-show" class="card-panel hide">
+                Here is your secret message
+                <h1></h1>
+                <div>
+                    <a href="https://tush-tr.github.io/vanilla-js-projects/share-secrets">Create your own secret message</a>
+                </div>
+            </div>
+
+
+            <div id="take" class="card-panel">
+                <form id="form" action="">
+                    <label for="">Enter a secret message</label>
+                    <input id="message-input" type="text">
+                    <button class="btn">Create</button>
+                </form>
+            </div>
+            <div id="show" class="card-panel hide">
+                <div>
+                    Share this link with your friends
+                    <input type="text" name="" id="showlink">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
