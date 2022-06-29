@@ -127,6 +127,8 @@ I made a lot of projects to enhance my javascript skills.
 ## <a href="coin_toss">Toss the coin</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/coin_toss/"><img src="coin_toss/preview.gif"></a>
 
+## <a href="word-list">Word List</a>
+<a href="https://tush-tr.github.io/jquery-things/list-words/"><img src="list-words/preview.gif"></a>
 
 ## <a href="typing-speed-tester">Typing Speed Tester</a>
 <a href="https://tush-tr.github.io/vanilla-js-projects/typing-speed-tester/"><img src="typing-speed-tester/preview.gif"></a>

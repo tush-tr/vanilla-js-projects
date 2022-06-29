@@ -1,0 +1,14 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 40rem;
+    flex-direction: column;
+}
+.character{
+    color: purple;
+    font-size: 8rem;
+
+}
